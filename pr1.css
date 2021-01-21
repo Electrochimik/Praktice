@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+    background: url(./img/background.jpg), rgba(218, 214, 204, 0.1);
+
+}
+
+#top {
+    font-size: 40px;
+    background-color: rgba(48, 196, 43, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    color: #eb660e;
+}
+
+.scroll {
+    font-size: 32px;
+    list-style-type: none;
+    background-color: rgba(245, 229, 13, 0.5);
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.scroll-item {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(138, 14, 14);
+    
+}
+
+.item {
+    text-align: justify;
+    background-color: rgba(116, 250, 6, 0.5);
+    border-radius: 150px;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.item-name {
+    font-size: 56px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0, auto;
+    text-decoration: none;
+    color: #270996;
+    
+}
+
+.item-name-link{
+    text-decoration: none;
+    color: rgb(243, 11, 11);
+}
+
+.item-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+h3{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.buttom{
+    display: block;
+    text-align: center;
+   
+}
+   

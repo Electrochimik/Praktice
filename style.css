@@ -1,0 +1,45 @@
+body{
+    border-left: 1px solid cornflowerblue;
+    padding-left: 20px;
+    margin-left: 100px;
+    background-color:rgba(93, 140, 146, 0.5)
+}
+.main_header{
+    background-color:#ffffff;
+    ;
+
+}
+
+.main_body {
+    background-color:#ffffff;
+    padding: 20px ;
+    margin-left: -20px;
+    
+
+}
+
+.more_about{
+    font-style: italic;
+
+}
+
+.title{
+    border: 1px solid cornflowerblue;
+    padding-left: 10px;
+    text-align: justify;
+    margin-right: 75%;
+    overflow: auto; 
+    background-color: rgba(175, 229, 236, 0.2);
+
+}
+img{
+    padding: 5px;
+    border: 1px solid cornflowerblue;
+    background-color:rgb(218, 225, 238);
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.img_bar{
+    text-align: center;
+}
