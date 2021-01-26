@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 24px 205px 24px 201px;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #C4C4C4;
+    height: 72px;
+}
+
+.header_menu {
+    display: flex;
+    column-gap: 35px;
+    list-style-type: none;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    /* line-height: 60px;        */
+}
+
+.header_menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_menu a:hover {
+    font-weight: bold;
+}
+
+
+.header_sosial {
+    display: flex;
+    column-gap: 25px;
+    list-style-type: none;
+    /* color: #C4C4C4; */
+}
+
+.header_sosial a {
+    color: #C4C4C4;
+}
+
+.header_sosial a:hover {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.carousel-item h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    color: #000000;
+    padding-bottom: 131px;
+}
+
+.carousel-indicators {
+    bottom: -85px;
+    /* background: tomato; */
+}
+
+.carousel-indicator_item {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #30ABAE;
+}
+
+.carousel-indicator_item_active {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #30ABAE;
+    border: 2px solid #000000;
+}
+
+.popula_plases {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: hidden;
+}
+
+.card-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.card-title span {
+    color: rgb(185, 171, 171);
+    padding: 40px;
+}
+
+.card-text {
+    border-left: 2px solid #ED8651;
+    padding-left: 23px;
+    margin-left: -20px;
+}
+
+.footer {
+    margin-top: 45px;
+    height: 90px;
+    background: #16595A;
+}
