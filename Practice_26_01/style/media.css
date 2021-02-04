@@ -1,0 +1,136 @@
+@media screen and (max-width: 576px) {
+
+    .header {
+        height: 83px;
+        width: 100%;
+        padding: 0;
+        padding-left: 33px;
+        overflow: hidden;
+    }
+
+    .header_menu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 26px;
+        line-height: 60px;
+        margin-top: 77px;
+        top: 0;
+        width: 361px;
+        height: 465px;
+        z-index: 10;
+        left: 100%;
+        transition: left 500ms;
+    }
+
+    .header_menu li {
+        height: 155px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+    }
+
+    .header_menu a:hover {
+        background-color: #F2F5F1;
+    }
+
+    .header_sosial {
+        margin-top: 5px;
+        font-size: 36px;
+        column-gap: 55px;
+    }
+
+    .fa-youtube {
+        display: inline-block;
+    }
+
+    .burger {
+        display: inline-block;
+    }
+
+    .header_menu.active {
+        left: 215px;
+    }
+
+    .main_body.active {
+        /* z-index: 5; */
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-item.active {
+        width: 1088px;
+    }
+
+    .w-100 {
+        resize: inherit;
+    }
+
+    .carousel-item.active h2 {
+        /* display: block; */
+        position: absolute;
+        width: 1088px;
+        background-color: #F2F5F1;
+        width: 715px;
+        height: 331px;
+        top: 583px;
+        z-index: 50;
+    }
+
+    .popular_plases h2 {
+        margin-top: 138px;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 576px;
+        display: flex;
+        margin-left: 33px;
+    }
+
+    .card-img-top {
+        width: 189px;
+        height: 263px;
+    }
+
+    .card-body{
+        width: 200px;
+        height: 266px;
+    }
+
+    .card-title {
+        width: 246px;
+        height: 28px;
+
+    }
+
+    .card-text {
+        width: 295px;
+        height: 266px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
