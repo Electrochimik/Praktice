@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Playlist</title>
+    <style>
+        body {
+            background-image: url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-6.jpg);
+        }
+
+        header {
+            text-align: center;
+            font: x-large;
+            color: darkblue;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            color: darkblue;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            color: darkblue;
+        }
+
+        h3 {
+            font-size: 28px;
+            color: rgb(58, 6, 6);
+            margin-top: 50px;
+        }
+
+        .prog {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .eng {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .level {
+            width: 30%;
+            text-align: center;
+        }
+
+        ol {
+            font-size: 24px;
+            margin-top: -25px;
+        }
+
+        ul {
+            font-size: 24px;
+            list-style-type: none;
+            margin-top: -25px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #000;
+        }
+
+        ul.html,
+        ul.js {
+            counter-reset: heading;
+            margin-left: -20px;
+        }
+
+        ul.html li:before,
+        ul.js li:before {
+            counter-increment: heading;
+            /* УКАЗЫВАЕМ ИДЕНТИФИКАТОР СЧЕТЧИКА */
+            content: "Lesson "counter(heading) ". ";
+            /* ВЫВОДИМ ТЕКСТ ПЕРЕД ЧИСЛОМ И ПОСЛЕ*/
+            color: rgb(97, 50, 82);
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+
+        footer>a {
+            text-align: center;
+            color: rgb(85, 10, 14);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>OKTEN School</h1>
+        <h2>JavaScriptComplex</h2>
+
+    </header>
+    <div class="main">
+        <div class="prog">
+            <h3>Методології керування проектами</h3>
+            <ol>
+                <li><a
+                        href="https://www.youtube.com/watch?v=cr8AFr84wE8&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=1&t=740s">Intro</a>
+                </li>
+                <li><a
+                        href="https://www.youtube.com/watch?v=0EVF56-T8Rs&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=2">Agile</a>
+                </li>
+                <li><a
+                        href="https://www.youtube.com/watch?v=b5pHAxNyD1U&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=3">Scrum
+                        Part 1</a></li>
+                <li><a
+                        href="https://www.youtube.com/watch?v=DdckAo01gW8&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=4">Scrum
+                        Part 2</a></li>
+                <li><a
+                        href="https://www.youtube.com/watch?v=3NE5NC-FEp8&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=5">Scrum
+                        Part 3</a></li>
+            </ol>
+            <h3>Cистема контролю версій</h3>
+            <ol>
+                <li><a
+                        href="https://www.youtube.com/watch?v=RUP9ya4_RYw&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=6&t=1001s">GitHub
+                        Part 1</a></li>
+                <li><a
+                        href="https://www.youtube.com/watch?v=KgMTDQzAHh8&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=7&t=2241s">GitHub
+                        Part 2</a></li>
+            </ol>
+            <h3>HTML</h3>
+            <ul class="html">
+                <li><a href="https://www.youtube.com/watch?v=6GVytZxky-4&feature=youtu.be"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=5dzdmZYVrqY&feature=youtu.be"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=V5i2cTJcAVE&feature=youtu.be">Float</a></li>
+                <li><a href="https://www.youtube.com/watch?v=LOPeC7EU3uY&feature=youtu.be">Flex</a></li>
+                <li><a href="https://www.youtube.com/watch?v=wUvzFHgRRDQ&feature=youtu.be">Bootstrap Part 1</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dkt-LEgPSTY&feature=youtu.be">Bootstrap Part 2</a></li>
+                <li><a href="https://www.youtube.com/watch?v=3rcomgeHqtI">Website layout</a></li>
+                <li><a href="https://www.youtube.com/watch?v=OFq_oJZdUr8">Website layout @Media</a></li>
+                <li><a href="https://www.youtube.com/watch?v=TU-T0g8bY-M">Сonsultation 29/01</a></li>
+            </ul>
+            <h3>JavaScript</h3>
+            <ul class="js">
+                <li><a href="https://www.youtube.com/watch?v=PO80nTHOb24">JS</a></li>
+                <li><a href="https://www.youtube.com/watch?v=aLJCwzneER0">Loops.Objects.Arrays</a></li>
+                <li><a href="https://www.youtube.com/watch?v=NjqgMNwVkM8&feature=youtu.be">Сonsultation 05/02</a></li>
+            </ul>
+        </div>
+    </div>
+    <h2>English</h2>
+    <div class="eng">
+        <section class="level">
+            <h3>A1</h3>
+            <ul>
+                <li><a
+                        href="https://www.youtube.com/watch?v=7RP6FjQPpUk&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=11">Lesson
+                        1</a></li>
+                <li><a href="https://www.youtube.com/watch?v=XJpJeR_sa40">Lesson 2</a></li>
+                <li><a href="https://www.youtube.com/watch?v=rAa2d9m76Bs">Lesson 3</a></li>
+            </ul>
+        </section>
+        <section class="level">
+            <h3>A2</h3>
+            <ul>
+                <li><a
+                        href="https://www.youtube.com/watch?v=fINkrC-s1VI&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=10">Lesson
+                        1</a></li>
+                <li><a href="https://www.youtube.com/watch?v=JmNerTZ15Wc">Lesson 2</a></li>
+                <li><a href="https://www.youtube.com/watch?v=J--oLtyfr_o">Lesson 3</a></li>
+            </ul>
+        </section>
+        <section class="level">
+            <h3>B1</h3>
+            <ul>
+                <li><a
+                        href="https://www.youtube.com/watch?v=LO9eeZzOgUA&list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0&index=9">Lesson
+                        1</a></li>
+                <li><a href="https://www.youtube.com/watch?v=kaUamKIW_i8">Lesson 2</a></li>
+                <li><a href="https://www.youtube.com/watch?v=Ekv_GTC_CHo">Lesson 3</a></li>
+            </ul>
+        </section>
+    </div>
+    </div>
+    <footer>
+        <h2>Додаткові матеріали</h2>
+        <a href="https://www.youtube.com/playlist?list=PLY1sAemBLA5xCCp5XcNlPkoyPks72Q7b0">Main playlist HTML</a>
+        <a href="https://www.youtube.com/playlist?list=PLY1sAemBLA5xZsOO_WlnrYp6uVjJIyjNV">Additional playlist HTML</a>
+        <a href=" https://youtube.com/playlist?list=PLY1sAemBLA5xciTi59eRdBj87xF1HwIES">JavaScript Previews</a>
+        <a href="https://youtube.com/playlist?list=PLY1sAemBLA5zRHRv_Bw5BpZ6fk07Y2lZN">JavaScript Homeworks</a>
+        <a href="https://github.com/GrayHead/js_demos/tree/master/this_one_folder_that_you_need">Home Tasks</a>
+    </footer>
+</body>
+
+</html>
