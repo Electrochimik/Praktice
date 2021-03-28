@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import User from "./components/user";
-import _ from 'lodash';
 
-console.log(lodash);
 
 class App extends Component {
 	render() {
